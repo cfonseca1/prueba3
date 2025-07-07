@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>WedaDev Header</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #0e0e0e;
+    }
+
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 30px;
+      background-color: #0e0e0e;
+      color: white;
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+    }
+
+    .logo img {
+      width: 24px;
+      height: 24px;
+      margin-right: 8px;
+    }
+
+    .logo span {
+      font-weight: bold;
+      font-size: 16px;
+    }
+
+    .menu {
+      display: flex;
+      gap: 20px;
+    }
+
+    .menu a {
+      color: #ccc;
+      text-decoration: none;
+      font-size: 14px;
+      transition: color 0.3s ease;
+    }
+
+    .menu a:hover {
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <header class="navbar">
+    <div class="logo">
+      <img src="https://via.placeholder.com/24x24?text=WD" alt="logo" />
+      <span>WedaDev</span>
+    </div>
+    <nav class="menu">
+      <a href="#">About me</a>
+      <a href="#">Project</a>
+      <a href="#">My skill</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+</body>
+</html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bayu Weda Portfolio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #0e0e0e;
+      color: white;
+    }
+
+    .hero {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 50px;
+      gap: 40px;
+      flex-wrap: wrap;
+    }
+
+    .hero-text {
+      max-width: 500px;
+    }
+
+    .hero-text h1 {
+      font-size: 36px;
+      margin: 0;
+    }
+
+    .hero-text h2 {
+      color: #2dd4bf;
+      margin: 5px 0 20px;
+      font-size: 22px;
+    }
+
+    .hero-text p {
+      color: #ccc;
+      line-height: 1.6;
+      font-size: 15px;
+    }
+
+    .buttons {
+      margin: 20px 0;
+    }
+
+    .contact-button {
+      background-color: #22d3ee;
+      border: none;
+      padding: 10px 20px;
+      color: #000;
+      font-weight: bold;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-right: 10px;
+    }
+
+    .social-icons img {
+      width: 24px;
+      margin-right: 10px;
+      vertical-align: middle;
+    }
+
+    .download-cv {
+      margin-top: 20px;
+      display: inline-block;
+      color: white;
+      text-decoration: none;
+      font-size: 14px;
+    }
+
+    .hero-image {
+      position: relative;
+      width: 300px;
+    }
+
+    .hero-image img {
+      width: 100%;
+      border-radius: 10px;
+    }
+
+    /* Optional floating icons (position can be customized) */
+    .tech-icon {
+      position: absolute;
+      width: 40px;
+    }
+
+    .html-icon { top: 20px; left: -20px; }
+    .js-icon { top: 0px; right: 0px; }
+    .figma-icon { top: 80px; left: 30px; }
+    .bs-icon { bottom: 30px; left: -10px; }
+    .node-icon { bottom: 0; right: 30px; }
+
+  </style>
+</head>
+<body>
+
+  <section class="hero">
+    <div class="hero-text">
+      <h1>hola mi nombre es christopher fonseca</h1>
+      <h2>Frontend Developer</h2>
+      <p>
+        este es mi portofolio ! las  herramientas usadas fueron HTML, CSS,visual estudio code y GitHub  y figma.<br><br>
+        .
+      </p>
+
+      <div class="buttons">
+        <button class="contact-button">Contact Me</button>
+        <span class="social-icons">
+          <img src="http://127.0.0.1:5500/Captura%20de%20pantalla_18-6-2025_19163_classroom.google.com.jpeg" alt="img" />
+          
+      </div>
+
+      <a class="download-cv" href="#">⬇ Download CV</a>
+    </div>
+
+    <div class="hero-image">
+      <img src="https://via.placeholder.com/300x400?text=Foto" alt="Bayu Weda" />
+      
+     
+      <img src="https://cdn-icons-png.flaticon.com/512/5968/5968672.png" class="tech-icon bs-icon" alt="Bootstrap" />
+      <img src="http://127.0.0.1:5500/Captura%20de%20pantalla_18-6-2025_19163_classroom.google.com.jpeg" class="tech-icon node-icon" alt="Node.js" />
+    </div>
+  </section>
